@@ -10,6 +10,7 @@
 </div>
 
 <div align="center">
+	<h2>Sobre o USER 404</h2>
 	Esse projeto consiste em criar um site de pergunts anônimas. Não precisará fazer cadastro na parte inicial do projeto (então não terá uma parte de perfil).
 	O <i>USER 404</i> vai fornecer as opções de:
 	<ol>⚪ [ ] Criar uma sala</ol>
@@ -19,12 +20,14 @@
 	❗ <i> Comment: Em breve teremos mais funcionalidades.</i>	
 </div>
 
-<h2>Tecnologias utilizadas até o momento:</h2>
-<ul align="center">
-    <ol>.Net Framework 3.1</ol>    
-    <ol>CSHTML</ol>
-    <ol>CSS</ol>
-    <ol>MVC (modelo de negócio)</ol>
-    <ol>MySql</ol>    
-</ul>
+<div align="center">
+	<h2>Tecnologias utilizadas até o momento:</h2>
+	<ul align="center">
+	    <ol>.Net Framework 3.1</ol>    
+	    <ol>CSHTML</ol>
+	    <ol>CSS</ol>
+	    <ol>MVC (modelo de negócio)</ol>
+	    <ol>MySql</ol>    
+	</ul>
+</div>
 
