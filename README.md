@@ -22,7 +22,7 @@
 
 <div align="center">
 	<h2>Tecnologias utilizadas até o momento:</h2>
-	<ul align="center">
+	<ul>
 	    <ol>.Net Framework 3.1</ol>    
 	    <ol>CSHTML</ol>
 	    <ol>CSS</ol>
