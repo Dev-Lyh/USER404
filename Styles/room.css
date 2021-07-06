@@ -1,0 +1,110 @@
+header{
+    padding: 4rem;
+}
+
+.opt{
+    display: flex;
+    justify-content: space-between;
+    width: 17.9rem;
+}
+
+.cod{
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 8.5rem;
+    height: 3.5rem;
+    border-radius: 0 1.5rem;
+    color: var(--Hot-yellow);
+    border: 2px solid var(--Hot-yellow);
+}
+.exit-room a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 8.5rem;
+    height: 3.5rem;
+    font-size: 1.2rem;
+    border-radius: 1.5rem 0;
+    background-color: var(--Red);
+    color: var(--White);
+    border: 2px solid var(--Red);
+}
+.questions{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.st-qst{
+    align-items: center;
+    display: flex;
+    width: 80rem;
+    height: 17.3rem;
+    padding: 2.3rem;
+    background: var(--Linear-gradient);
+}
+.ft-pf{
+    height: 17rem;
+    width: 8rem;
+
+}
+.ph-pf{
+    width: 4rem;
+    height: 4rem;
+    /* display: flex; */
+    background-color: var(--Blue-sky);
+    margin-top: 1.5rem;
+    clip-path: circle(49%);
+    /* align-items: flex-end; */
+    /* justify-content: flex-start; */
+}
+.form{
+    display: flex;
+    align-items: center;
+    height: 14rem;
+    width: 95%;
+    background-color: var(--White);
+}
+.form form{
+    height: 14rem;
+    padding: .5rem;
+    width: 100%;
+    background-color: var(--White);
+
+}
+.form form textarea{
+    font-family: 'Poppins';
+    color: var(--Brown);
+    outline: none;
+    border: none;
+
+    resize: none;
+}
+.form form textarea::placeholder{
+    color: rgba(0, 0, 0, 20%);
+    font-weight: 500;
+    font-size: 1.2rem;
+    font-style: italic;
+}
+.form form button{
+    min-width: 8rem;
+    min-height: 3.5rem;
+    background-color: var(--Blue-sky);
+    border: none;
+    color: var(--White);
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+    border-radius: .5rem;
+    cursor: pointer;
+    letter-spacing: .2rem;
+
+    transition-property: filter;
+    transition-duration: .5s;
+}
+.form form button:hover{
+    filter: brightness(1.4);
+    border-radius: none;
+}
