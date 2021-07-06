@@ -1,0 +1,38 @@
+.opt a{
+    display: flex;
+    align-items: center;
+    color: var(--Medium-yellow);
+    letter-spacing: .2rem;
+    font-weight: 500;
+}
+.opt a:hover{
+    text-shadow: none;
+}
+.opt img{
+    padding-right: 1rem;
+}
+.history{
+    padding: 0rem 4rem 4rem 4rem;
+}
+.card{
+    border-radius: 1rem 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    background-color: var(--Red);
+    min-height: 48rem;
+    max-width: 100%;
+}
+.card p{
+    font-weight: 500;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    font-family: 'Raleway', sans-serif;
+    color: var(--White);
+    font-size: 1.6rem;
+    letter-spacing: .2rem;
+}
+.card .ins-c{
+    text-align: center;
+}

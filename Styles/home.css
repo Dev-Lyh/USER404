@@ -1,0 +1,85 @@
+body{
+    max-width: 100%;
+    min-height: 100vh;
+    background: var(--Linear-gradient);
+}
+.opt a{
+    color: var(--White);
+}
+/* TELA INICIAL DA HOME */
+
+.cadastro{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 80%;
+    padding: 0rem 4rem 4rem 4rem;
+}
+
+.form-init{
+    max-width: 50%;
+}
+.form-init .pt-1,
+.form-init .pt-3{
+    text-align: center;
+    max-width: 49.2rem;
+}
+.form-init .pt-1 p,
+.form-init .pt-3 p{
+    max-width: 49.2rem;
+    text-align: center;
+    font-size: 1.8rem;
+    color: var(--White);
+    font-weight: 500;
+}
+.form-init .pt-1 input,
+.form-init .pt-3 input{
+    margin-top: 3.5rem;
+    margin-bottom: 1rem;
+    background-color: transparent;
+    min-height: 3.5rem;
+    border-radius: 1rem;
+    border: .2rem solid var(--White);
+    min-width: 100%;
+    padding: 0 1.3rem;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+    color: var(--White);
+}
+.form-init .pt-1 input::placeholder,
+.form-init .pt-3 input::placeholder{
+    font-style: italic;
+    color: rgba(255, 255, 255, 61%);
+    font-family: 'Poppins', sans-serif;
+}
+.form-init .pt-1 button,
+.form-init .pt-3 button{
+    min-width: 10rem;
+    min-height: 3rem;
+    background-color: var(--Blue-sky);
+    border: none;
+    color: var(--White);
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+    border-radius: .5rem;
+    cursor: pointer;
+    letter-spacing: .2rem;
+
+    transition-property: filter;
+    transition-duration: .8s;
+}
+.form-init .pt-1 button:hover,
+.form-init .pt-3 button:hover{
+    filter: brightness(1.5);
+    border-radius: none;
+}
+.form-init .pt-2{
+    margin: 1.5rem 0;
+}
+.ilustra-home{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    max-width: 50%;
+}
