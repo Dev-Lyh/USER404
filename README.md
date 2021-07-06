@@ -12,10 +12,10 @@
 <div align="center">
 	Esse projeto consiste em criar um site de pergunts anônimas. Não precisará fazer cadastro na parte inicial do projeto (então não terá uma parte de perfil).
 	O <i>USER 404</i> vai fornecer as opções de:
-	<ol>⚪ <input type="checkbox"> Criar uma sala</ol>
-	<ol>⚫ <input type="checkbox"> Entrar em uma sala já existente</ol>
-	<ol>🔴 <input type="checkbox"> Fazer perguntas</ol>
-	<ol>🔵 <input type="checkbox"> Excluir Perguntas (apenas o administrador)</ol>
+	<ol>⚪ [] Criar uma sala</ol>
+	<ol>⚫ [] Entrar em uma sala já existente</ol>
+	<ol>🔴 [] Fazer perguntas</ol>
+	<ol>🔵 [] Excluir Perguntas (apenas o administrador)</ol>
 	❗ <i> Comment: Em breve teremos mais funcionalidades.</i>	
 </div>
 
