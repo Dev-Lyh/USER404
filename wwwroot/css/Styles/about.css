@@ -1,11 +1,15 @@
-.opt a{
+.bd-white{
+    background-color: var(--White);
+}
+
+.opt .a-about{
     display: flex;
     align-items: center;
     color: var(--Medium-yellow);
     letter-spacing: .2rem;
     font-weight: 500;
 }
-.opt a:hover{
+.opt .a-about:hover{
     text-shadow: none;
 }
 .opt img{
