@@ -4,7 +4,7 @@ using MySqlConnector;
 
 namespace USER404.Models
 {
-    public class RoomRepository
+    public class RoomsRepository
     {
         private const string ConnectionData = "Database=user404; Data source=localhost; User Id=root;";
 
@@ -32,6 +32,30 @@ namespace USER404.Models
             Command.ExecuteNonQuery();
 
             Connection.Close();
+        }
+
+        public List<Rooms> select(Rooms room){
+
+            MySqlConnection Connection = new MySqlConnection(ConnectionData);
+            Connection.Open();
+            string Query = "SELECT Id FROM rooms";
+
+            MySqlCommand Command = new MySqlCommand(Query, Connection);
+            MySqlDataReader Reader = Command.ExecuteReader();
+
+            List<Rooms> Lista = new List<Rooms>();
+
+            while(Reader.Read()){
+                
+                Rooms roomFind = new Rooms();
+                roomFind.Id = Reader.GetInt32("@Id");
+
+                Lista.Add(roomFind);
+
+            };
+
+            Connection.Close();
+            return Lista;
         }
 
     }
