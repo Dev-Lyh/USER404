@@ -1,11 +1,9 @@
 CREATE DATABASE user404;
-
 CREATE TABLE rooms(
     Id int(6) NOT NULL,
     Pass varchar(60) NOT NULL,
     PRIMARY KEY(Id)
 );
-
 CREATE TABLE questions(
 	Id int(6) AUTO_INCREMENT NOT NULL,
     Title varchar(300) NOT NULL,
