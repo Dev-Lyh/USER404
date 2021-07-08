@@ -19,7 +19,7 @@ namespace USER404.Models
 
         /*
         ?CRUD : 
-            &[V] INSERT - [V] SELECT - [] UPDATE - [] DELETE
+            &[V] INSERT - [V] SELECT - [V] UPDATE - [] DELETE
         */
 
         /*  página de home (inserir os dados da sala/ ação de criar sala)*/
