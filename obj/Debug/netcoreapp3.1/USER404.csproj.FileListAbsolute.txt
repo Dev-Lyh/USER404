@@ -22,8 +22,6 @@ C:\Users\User\desktop\Projetos\USER404\obj\Debug\netcoreapp3.1\USER404.TagHelper
 C:\Users\User\desktop\Projetos\USER404\obj\Debug\netcoreapp3.1\USER404.RazorCoreGenerate.cache
 C:\Users\User\desktop\Projetos\USER404\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
 C:\Users\User\desktop\Projetos\USER404\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
-C:\Users\User\desktop\Projetos\USER404\obj\Debug\netcoreapp3.1\Razor\Views\Room\home.cshtml.g.cs
-C:\Users\User\desktop\Projetos\USER404\obj\Debug\netcoreapp3.1\Razor\Views\Room\room.cshtml.g.cs
 C:\Users\User\desktop\Projetos\USER404\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
 C:\Users\User\desktop\Projetos\USER404\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
 C:\Users\User\desktop\Projetos\USER404\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
@@ -38,4 +36,6 @@ C:\Users\User\desktop\Projetos\USER404\obj\Debug\netcoreapp3.1\staticwebassets\U
 C:\Users\User\desktop\Projetos\USER404\obj\Debug\netcoreapp3.1\USER404.dll
 C:\Users\User\desktop\Projetos\USER404\obj\Debug\netcoreapp3.1\USER404.pdb
 C:\Users\User\desktop\Projetos\USER404\obj\Debug\netcoreapp3.1\USER404.genruntimeconfig.cache
-C:\Users\User\desktop\Projetos\USER404\obj\Debug\netcoreapp3.1\Razor\Views\Room\about.cshtml.g.cs
+C:\Users\User\Desktop\Projetos\USER404\obj\Debug\netcoreapp3.1\Razor\Views\Rooms\About.cshtml.g.cs
+C:\Users\User\Desktop\Projetos\USER404\obj\Debug\netcoreapp3.1\Razor\Views\Rooms\Home.cshtml.g.cs
+C:\Users\User\Desktop\Projetos\USER404\obj\Debug\netcoreapp3.1\Razor\Views\Rooms\Room.cshtml.g.cs

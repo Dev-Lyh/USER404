@@ -6,16 +6,21 @@ namespace USER404.Models
 {
     public class RoomsRepository
     {
-        private const string ConnectionData = "Database=user404; Data source=localhost; User Id=root;";
+        private const string ConnectionData = "Database=user404;Data source=localhost;User Id=root;";
 
-        public void TestandoConexao(){
-            MySqlConnection Connection = new MySqlConnection(ConnectionData);
-            Connection.Open();
-            Console.WriteLine("Banco de dados deu certo... UHULL!!!");
-            Connection.Close(); 
-        }
+        /*
+        ~public void TestandoConexao(){
+            ~MySqlConnection Connection = new MySqlConnection(ConnectionData);
+            ~Connection.Open();
+            ~Console.WriteLine("Banco de dados deu certo... UHULL!!!");
+            ~Connection.Close(); 
+        ~}
+        */
 
-        /* CRUD : [V] INSERT - [] SELECT - [] UPDATE - [] DELETE*/
+        /*
+        ?CRUD : 
+            &[V] INSERT - [V] SELECT - [] UPDATE - [] DELETE
+        */
 
         /*  página de home (inserir os dados da sala/ ação de criar sala)*/
 
@@ -56,6 +61,21 @@ namespace USER404.Models
 
             Connection.Close();
             return Lista;
+        }
+
+        public void update(Rooms room){
+            MySqlConnection Connection = new MySqlConnection();
+            Connection.Open();
+
+            string Query = "UPDATE rooms SET Pass=@Pass WHERE Id=@Id";
+
+            MySqlCommand Command = new MySqlCommand(Query, Connection);
+
+            Command.Parameters.AddWithValue("Pass", room.Pass);
+
+            Command.ExecuteNonQuery();
+
+            Connection.Close();
         }
 
     }
