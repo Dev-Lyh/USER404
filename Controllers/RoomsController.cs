@@ -8,7 +8,7 @@ using Microsoft.Extensions.Logging;
 using USER404.Models;
 
 namespace USER404.Controllers {
-    public class RoomController : Controller
+    public class RoomsController : Controller
     {
         public IActionResult Home(){
             return View();
