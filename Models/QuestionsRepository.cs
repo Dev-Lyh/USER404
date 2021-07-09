@@ -10,7 +10,7 @@ namespace USER404.Models
         /*
         ?CRUD:
             &[V] Insert;
-            &[] Select;
+            &[V] Select;
             &[] Update;
             &[] Delete;
         */
@@ -29,6 +29,31 @@ namespace USER404.Models
             Command.ExecuteNonQuery();
 
             Connection.Close();
+        }
+
+        public List<Questions> select(Questions question){
+            MySqlConnection Connection = new MySqlConnection();
+            Connection.Open();
+
+            string Query = "SELECT Title FROM questions";
+
+            MySqlCommand Command = new MySqlCommand(Query, Connection);
+            MySqlDataReader Reader = Command.ExecuteReader();
+
+            List<Questions> Lista = new List<Questions>();
+            while(Reader.Read()){
+
+                Questions questionFind = new Questions();
+
+                questionFind.Title = Reader.GetString("@Title");
+
+                Lista.Add(questionFind);
+
+            }
+
+            Connection.Close();
+            return Lista;
+
         }
     }
 }
