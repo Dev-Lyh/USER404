@@ -13,10 +13,10 @@
 	<h2>Sobre o USER 404</h2>
 	Esse projeto consiste em criar um site de pergunts anônimas. Não precisará fazer cadastro na parte inicial do projeto (então não terá uma parte de perfil).
 	O <i>USER 404</i> vai fornecer as opções de:
-	<ol>⚪ [ ] Criar uma sala</ol>
-	<ol>⚫ [ ] Entrar em uma sala já existente</ol>
-	<ol>🔴 [ ] Fazer perguntas</ol>
-	<ol>🔵 [ ] Excluir Perguntas (apenas o administrador)</ol>
+	<ol>⚪ - [ ] Criar uma sala</ol>
+	<ol>⚫ - [ ] Entrar em uma sala já existente</ol>
+	<ol>🔴 - [ ] Fazer perguntas</ol>
+	<ol>🔵 - [ ] Excluir Perguntas (apenas o administrador)</ol>
 	❗ <i> Comment: Em breve teremos mais funcionalidades.</i>	
 </div>
 
