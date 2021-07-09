@@ -11,7 +11,7 @@ namespace USER404.Models
         ?CRUD:
             &[V] Insert;
             &[V] Select;
-            &[] Update;
+            &[V] Update;
             &[] Delete;
         */
 
@@ -53,7 +53,21 @@ namespace USER404.Models
 
             Connection.Close();
             return Lista;
+        }
 
+        public void update(Questions question){
+            MySqlConnection Connection = new MySqlConnection();
+            Connection.Open();
+
+            string Query = "UPDATE questions SET Title=@Title WHERE Id=@Id";
+
+            MySqlCommand Command = new MySqlCommand(Query, Connection);
+
+            Command.Parameters.AddWithValue("Title", question.Title);
+
+            Command.ExecuteNonQuery();
+            
+            Connection.Close();
         }
     }
 }
