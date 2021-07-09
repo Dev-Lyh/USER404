@@ -1,3 +1,5 @@
+@model IEnumerable<Rooms>
+
 <body class="bd-gradient">
     <header>
         <div class="g-header">
@@ -13,7 +15,7 @@
     </header>
     <section class="cadastro">
         <div class="form-init">
-            <form action="/Room/Room">
+            <form asp-action="Criar" method="POST">
                 <div class="pt-1">
                     <p>
                         Crie sua sala!
@@ -23,16 +25,18 @@
                     <input type="text" name="" id="" placeholder="Defina uma senha...">
                     <button>Criar sala</button>
                 </div>
-                <div class="pt-2">
-                    <img src="~/SVGs/enfeite.svg" alt="">
-                </div>
+            </form>
+            <div class="pt-2">
+                <img src="~/SVGs/enfeite.svg" alt="">
+            </div>
+            <form asp-action="Entrar" method="POST">
                 <div class="pt-3">
                     <p>
                         Já tem uma sala?
                         <br>
                         Insira o código no campo abaixo
                     </p>
-                    <input type="text" name="" id="" placeholder="Insira o código...">
+                    <input type="text" asp-for="Room" name="" id="" placeholder="Insira o código...">
                     <button>Entrar</button>
                 </div>
             </form>
