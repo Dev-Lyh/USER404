@@ -69,5 +69,20 @@ namespace USER404.Models
             
             Connection.Close();
         }
+
+        public void delete(Questions question){
+            MySqlConnection Connection = new MySqlConnection();
+            Connection.Open();
+
+            string Query = "DELETE FROM questions WHERE Id=@Id";
+
+            MySqlCommand Command = new MySqlCommand(Query, Connection);
+
+            Command.Parameters.AddWithValue("Id", question.Id);
+
+            Command.ExecuteNonQuery();
+            
+            Connection.Close();
+        }
     }
 }
