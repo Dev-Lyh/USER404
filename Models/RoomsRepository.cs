@@ -19,7 +19,7 @@ namespace USER404.Models
 
         /*
         ?CRUD : 
-            &[V] INSERT - [V] SELECT - [V] UPDATE - [] DELETE
+            &[V] INSERT - [V] SELECT - [V] UPDATE - [V] DELETE
         */
 
         /*  página de home (inserir os dados da sala/ ação de criar sala)*/
@@ -78,5 +78,19 @@ namespace USER404.Models
             Connection.Close();
         }
 
+        public void delete(Rooms room){
+            MySqlConnection Connection = new MySqlConnection();
+            Connection.Open();
+
+            string Query = "DELETE FROM rooms WHERE Id=@Id";
+
+            MySqlCommand Command = new MySqlCommand(Query, Connection);
+
+            Command.Parameters.AddWithValue("Id", room.Id);
+
+            Command.ExecuteNonQuery();
+
+            Connection.Close();
+        }
     }
 } 
