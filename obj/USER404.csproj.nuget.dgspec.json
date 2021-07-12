@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Desktop\\Projetos\\USER404\\USER404.csproj": {}
+    "C:\\Users\\User\\desktop\\Projetos\\USER404\\USER404.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Desktop\\Projetos\\USER404\\USER404.csproj": {
+    "C:\\Users\\User\\desktop\\Projetos\\USER404\\USER404.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Desktop\\Projetos\\USER404\\USER404.csproj",
+        "projectUniqueName": "C:\\Users\\User\\desktop\\Projetos\\USER404\\USER404.csproj",
         "projectName": "USER404",
-        "projectPath": "C:\\Users\\User\\Desktop\\Projetos\\USER404\\USER404.csproj",
+        "projectPath": "C:\\Users\\User\\desktop\\Projetos\\USER404\\USER404.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Desktop\\Projetos\\USER404\\obj\\",
+        "outputPath": "C:\\Users\\User\\desktop\\Projetos\\USER404\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"

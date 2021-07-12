@@ -46,7 +46,7 @@ namespace USER404
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Room}/{action=Home}/{id?}");
+                    pattern: "{controller=Rooms}/{action=Home}/{id?}");
             });
         }
     }

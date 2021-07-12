@@ -38,4 +38,4 @@ C:\Users\User\desktop\Projetos\USER404\obj\Debug\netcoreapp3.1\USER404.pdb
 C:\Users\User\desktop\Projetos\USER404\obj\Debug\netcoreapp3.1\USER404.genruntimeconfig.cache
 C:\Users\User\Desktop\Projetos\USER404\obj\Debug\netcoreapp3.1\Razor\Views\Rooms\About.cshtml.g.cs
 C:\Users\User\Desktop\Projetos\USER404\obj\Debug\netcoreapp3.1\Razor\Views\Rooms\Home.cshtml.g.cs
-C:\Users\User\Desktop\Projetos\USER404\obj\Debug\netcoreapp3.1\Razor\Views\Rooms\Room.cshtml.g.cs
+C:\Users\User\desktop\Projetos\USER404\obj\Debug\netcoreapp3.1\Razor\Views\Questions\Room.cshtml.g.cs

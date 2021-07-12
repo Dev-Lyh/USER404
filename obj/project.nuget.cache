@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Vafd/PBU9j/A+o4cQhq7cKmjsC5G8pFvb27KUU0tIcnX/n/MQp1uyTU0JUTFCBLNTz9/SFBd5ZXO0ypgGoY9Jg==",
+  "dgSpecHash": "YZGKkomf1woWOoj3ieUHnOnM6lRdlPkRxvKT1b9S4vHDLcRkb78r7q3Dj6yQYWc0o0jUDkcLdZhqxLxGME7mKQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\User\\Desktop\\Projetos\\USER404\\USER404.csproj",
+  "projectFilePath": "C:\\Users\\User\\desktop\\Projetos\\USER404\\USER404.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\User\\.nuget\\packages\\mysqlconnector\\1.3.11\\mysqlconnector.1.3.11.nupkg.sha512"
   ],
