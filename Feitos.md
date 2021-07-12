@@ -1,10 +1,10 @@
 # Coisas que já foram feitas até agora:
 
-- [ ] As models tanto de Rooms quanto de Questions;
-- [ ] As views já foram diagramadas mas tem alguns ajustes para fazer nos formulários em relação aos asp-for; 
-- [ ] CSS já foi implementado;
-- [ ] Coisas como licença e texto para colaboradores também já foram feitos;
-- [ ] Todo o design está pronto mas pode ocorrer alterações devido as ideias extras feitas por nós; 
+- [x] As models tanto de Rooms quanto de Questions;
+- [x] As views já foram diagramadas mas tem alguns ajustes para fazer nos formulários em relação aos asp-for; 
+- [x] CSS já foi implementado;
+- [x] Coisas como licença e texto para colaboradores também já foram feitos;
+- [x] Todo o design está pronto mas pode ocorrer alterações devido as ideias extras feitas por nós; 
 
 # Coisas que temos que fazer ainda:
 
