@@ -9,11 +9,12 @@
 # Coisas que temos que fazer ainda:
 
 - [ ] Terminar os controllers do Rooms e Questions;
+- [ ] Arranjar um jeito de fazer um id aleatório com 6 digitos quando criar sala;
 - [ ] Testar tudo bonitinho pra não dar erro (kkkkkkkk, pra isso que serve testes);
 - [ ] Arrumar os forms;
 - [ ] Fazer o id ser mostrado automaticamente assim que o usuário entra na sala;
 - [ ] Mudar a parte de perguntas quando não se tem uma;
-- [ ]  Excluir perguntas (fazer o frame "sumir");
+- [ ] Excluir perguntas (fazer o frame "sumir");
 - [ ] Fazer mais testes;
 - [ ] Ver como que vamos entrar em uma sala já existente (lembrando que as perguntas que estão na sala devem ficar mantidas lá);
 
