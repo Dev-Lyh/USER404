@@ -6,5 +6,7 @@ namespace USER404.Models
     {
         public int Id {get; set;}
         public string Pass {get; set;}
+
+        public int codeRoom {get; set;}
     }
 }

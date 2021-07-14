@@ -1,4 +1,4 @@
-@* @model IEnumerable<Rooms> *@
+@model Rooms
 
 <body class="bd-gradient">
     <header>
@@ -18,11 +18,13 @@
             <form asp-action="Criar" method="POST">
                 <div class="pt-1">
                     <p>
-                        Crie sua sala!
-                        <br>
-                        Defina uma senha
+                        <label asp-for="Id">
+                            Crie sua sala!
+                            <br>
+                            Defina uma senha
+                        </label>
                     </p>
-                    <input type="text" name="" id="" placeholder="Defina uma senha...">
+                    <input type="text" asp-for="Id" placeholder="Defina uma senha...">
                     <button>Criar sala</button>
                 </div>
             </form>
@@ -32,11 +34,13 @@
             <form asp-action="Entrar" method="POST">
                 <div class="pt-3">
                     <p>
-                        Já tem uma sala?
-                        <br>
-                        Insira o código no campo abaixo
+                        <label asp-for="codeRoom">
+                            Já tem uma sala?
+                            <br>
+                            Insira o código no campo abaixo
+                        </label>
                     </p>
-                    <input type="text" name="" id="" placeholder="Insira o código...">
+                    <input type="text" asp-for="codeRoom" placeholder="Insira o código...">
                     <button>Entrar</button>
                 </div>
             </form>
