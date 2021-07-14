@@ -13,6 +13,14 @@ namespace USER404.Controllers {
         public IActionResult Home(){
             return View();
         }
+
+        [HttpPost]
+        public IActionResult Criar(Rooms roomForm){
+            RoomsRepository rr =  new RoomsRepository();
+            rr.insert(roomForm);
+
+            return RedirectToAction("Room", "Questions");
+        }
         public IActionResult About(){
             return View();
         }

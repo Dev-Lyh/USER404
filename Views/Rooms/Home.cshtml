@@ -18,13 +18,19 @@
             <form asp-action="Criar" method="POST">
                 <div class="pt-1">
                     <p>
-                        <label asp-for="Id">
+                        <label asp-for="Pass">
                             Crie sua sala!
                             <br>
                             Defina uma senha
                         </label>
                     </p>
-                    <input type="text" asp-for="Id" placeholder="Defina uma senha...">
+                    <input type="text" asp-for="Pass" placeholder="Defina uma senha..." required>
+                    @{
+                        Random rnd = new Random();
+                        int codeRoom = rnd.Next(000000,999999);
+
+                        <input type="hidden" asp-for="codeRoom" value="@codeRoom">
+                    }
                     <button>Criar sala</button>
                 </div>
             </form>
@@ -40,13 +46,13 @@
                             Insira o código no campo abaixo
                         </label>
                     </p>
-                    <input type="text" asp-for="codeRoom" placeholder="Insira o código...">
+                    <input type="text" asp-for="codeRoom" placeholder="Insira o código..." required>
                     <button>Entrar</button>
                 </div>
             </form>
         </div>
         <div class="ilustra-home">
-            <img src="~/SVGs/ilustra-home.svg" alt="">
+            <img src="~/SVGs/ilustra-home.svg" alt="ilustração da home">
         </div>
     </section>
 </body>
