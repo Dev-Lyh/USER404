@@ -16,8 +16,6 @@ namespace USER404.Controllers {
         public IActionResult About(){
             return View();
         }
-        public IActionResult Room(){
-            return View();
-        }
+
     }
 }
