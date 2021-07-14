@@ -27,7 +27,7 @@
                     <input type="text" asp-for="Pass" placeholder="Defina uma senha..." required>
                     @{
                         Random rnd = new Random();
-                        int Id = rnd.Next(000000,999999);
+                        int Id = rnd.Next(100000,999999);
 
                         <input type="text" asp-for="Id" value="@Id">
                     }

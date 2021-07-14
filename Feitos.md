@@ -9,7 +9,7 @@
 # Coisas que temos que fazer ainda:
 
 - [ ] Terminar os controllers do Rooms e Questions;
-- [ ] Arranjar um jeito de fazer um id aleatório com 6 digitos quando criar sala;
+- [x] Arranjar um jeito de fazer um id aleatório com 6 digitos quando criar sala;
 - [ ] Testar tudo bonitinho pra não dar erro (kkkkkkkk, pra isso que serve testes);
 - [ ] Arrumar os forms;
 - [ ] Fazer o id ser mostrado automaticamente assim que o usuário entra na sala;

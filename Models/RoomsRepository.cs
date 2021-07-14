@@ -40,6 +40,17 @@ namespace USER404.Models
             Connection.Close();
         }
 
+        // public Rooms showId(Rooms room){
+        //     MySqlConnection Connection = new MySqlConnection();
+        //     Connection.Open();
+
+        //     String Query = "SELECT * FROM rooms WHERE Id=@Id AND Pass=@Pass ";
+            
+        //     MySqlCommand Command = new MySqlCommand(Query, Connection);
+        //     MySqlDataReader Reader = Command.ExecuteReader();
+
+        // }
+
         public List<Rooms> select(Rooms room){
 
             MySqlConnection Connection = new MySqlConnection(ConnectionData);

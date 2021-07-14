@@ -1,3 +1,5 @@
+@using Microsoft.AspNetCore.Http;
+
 <body class="bd-white">
     <header>
         <div class="g-header">
@@ -9,7 +11,7 @@
             <div class="opt">
                 <div class="cod">
                     <img src="~/SVGs/icon-copy.svg" alt="">
-                    #236958
+                    #@Context.Session.GetInt32("IdRoom");
                 </div>
                 <div class="exit-room">
                     <a href="/Room/Home">
