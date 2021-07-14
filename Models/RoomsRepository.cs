@@ -28,10 +28,11 @@ namespace USER404.Models
 
             MySqlConnection Connection = new MySqlConnection(ConnectionData);
             Connection.Open();
-            string Query = "INSERT INTO rooms(Pass) VALUES (@Pass)";
+            string Query = "INSERT INTO rooms(Id, Pass) VALUES (@Id, @Pass)";
             
             MySqlCommand Command = new MySqlCommand(Query, Connection);
 
+            Command.Parameters.AddWithValue("@Id", room.Id);
             Command.Parameters.AddWithValue("@Pass", room.Pass);
 
             Command.ExecuteNonQuery();

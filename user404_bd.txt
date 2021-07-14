@@ -3,7 +3,6 @@ CREATE DATABASE user404;
 CREATE TABLE rooms(
     Id int(6) NOT NULL,
     Pass varchar(60) NOT NULL,
-    codeRoom int(6),
     PRIMARY KEY(Id, codeRoom)
 
 );

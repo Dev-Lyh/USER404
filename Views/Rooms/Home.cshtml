@@ -27,9 +27,9 @@
                     <input type="text" asp-for="Pass" placeholder="Defina uma senha..." required>
                     @{
                         Random rnd = new Random();
-                        int codeRoom = rnd.Next(000000,999999);
+                        int Id = rnd.Next(000000,999999);
 
-                        <input type="hidden" asp-for="codeRoom" value="@codeRoom">
+                        <input type="text" asp-for="Id" value="@Id">
                     }
                     <button>Criar sala</button>
                 </div>
@@ -40,13 +40,13 @@
             <form asp-action="Entrar" method="POST">
                 <div class="pt-3">
                     <p>
-                        <label asp-for="codeRoom">
+                        <label asp-for="Id">
                             Já tem uma sala?
                             <br>
                             Insira o código no campo abaixo
                         </label>
                     </p>
-                    <input type="text" asp-for="codeRoom" placeholder="Insira o código..." required>
+                    <input type="text" asp-for="Id" placeholder="Insira o código...">
                     <button>Entrar</button>
                 </div>
             </form>
