@@ -35,7 +35,7 @@
 		<br>
 	    CSS
 		<br>
-	    MVC (modelo de negócio)
+	    MVC (Arquitetura)
 		<br>
 	    MySql
 		<br>

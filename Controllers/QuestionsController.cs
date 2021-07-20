@@ -13,5 +13,13 @@ namespace USER404.Controllers {
         public IActionResult Room(){
             return View();
         }
+
+        // [HttpPost]
+        // public IActionResult Room(Rooms roomForm){
+        //     RoomsRepository rr = new RoomsRepository();
+        //     Rooms roomSession = rr.showId(roomForm);
+
+        //     return View();
+        // }
     }
 }

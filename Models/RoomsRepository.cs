@@ -49,6 +49,18 @@ namespace USER404.Models
         //     MySqlCommand Command = new MySqlCommand(Query, Connection);
         //     MySqlDataReader Reader = Command.ExecuteReader();
 
+        //     Rooms roomFind = null;
+            
+        //     if(Reader.Read()){
+
+        //         roomFind = new Rooms();
+        //         roomFind.Id = Reader.GetInt32("Id");
+
+        //     }
+
+        //     Connection.Close();
+        //     return roomFind;
+
         // }
 
         public List<Rooms> select(Rooms room){
